@@ -246,12 +246,3 @@ export const ProductController = new Elysia({ prefix: "/products" })
    - 命名规范选项
    - 测试代码生成
 
-## 质量保证
-
-生成的代码遵循以下标准：
-
-- ✅ 100% TypeScript类型安全
-- ✅ 自动导入/导出管理
-- ✅ 遵循项目编码规范
-- ✅ 包含错误处理
-- ✅ 支持增量更新（不覆盖自定义代码）
