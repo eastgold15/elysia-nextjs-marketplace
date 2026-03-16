@@ -1,0 +1,3 @@
+[submodule "plugins/elysia-plugin/skills"]
+	path = plugins/elysia-plugin/skills
+	url = https://github.com/elysiajs/skills.git
