@@ -29,6 +29,8 @@
 /plugin install code-generation-skill
 /plugin install elysia-drizzle-fullstack-Nexus
 /plugin install claude-marketplace
+/plugin install better-auth-skills
+/plugin install elysia-skills
 
 # 安装后重启 Claude Code 会话使插件生效
 ```
@@ -197,7 +199,66 @@
 
 ---
 
-### 6. **elysia-skills** - ElysiaJS 官方 Skills（子模块）
+### 6. **better-auth-skills** - Better Auth 官方 Skills（子模块）
+
+> 来自 better-auth/skills 仓库的官方 AI 技能集合
+
+**功能特性：**
+- 自动同步 better-auth/skills 仓库更新
+- 提供完整的 Better Auth 开发指南
+- 支持多种框架和数据库的认证实现
+
+**包含 Skills：**
+
+#### create-auth
+脚手架和实现 TypeScript/JavaScript 应用的认证系统
+
+**功能特性：**
+- 自动检测项目框架和数据库
+- 配置数据库适配器
+- 设置路由处理器
+- 添加 OAuth 提供商
+- 创建认证 UI 页面
+
+**支持框架：**
+- Next.js (App Router / Pages Router)
+- SvelteKit
+- Nuxt
+- Astro
+- Express
+- Hono
+- SolidStart
+
+**支持认证方法：**
+- 邮箱密码登录
+- 社交 OAuth（Google、GitHub 等）
+- 魔法链接（无密码邮箱）
+- Passkey (WebAuthn)
+- 手机号验证
+
+#### best-practices
+Better Auth 最佳实践指南
+
+#### emailAndPassword
+邮箱密码认证实现
+
+#### organization
+组织/团队管理功能
+
+#### twoFactor
+双因素认证 (2FA) 实现
+
+**更新方式：**
+```bash
+# 更新子模块到最新版本
+git submodule update --remote plugins/better-auth-skills
+```
+
+**版本：** 跟随 better-auth/skills 仓库
+
+---
+
+### 7. **elysia-skills** - ElysiaJS 官方 Skills（子模块）
 
 > 来自 elysiajs/skills 仓库的官方 AI 技能集合
 
