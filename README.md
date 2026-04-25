@@ -14,6 +14,8 @@
 
 
 
+## 安装skills 使用 skill-manager
+https://github.com/iamzhihuix/skills-manage
 
 ## FreeFileSync下载地址
 https://freefilesync.org/download.php
